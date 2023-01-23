@@ -15,6 +15,10 @@ require("nvim-tree").setup({
     update_cwd = false,
     ignore_list = {},
   },
+  diagnostics = {
+    enable = true,
+    show_on_dirs = true,
+  },
 })
 
 vim.keymap.set("n", "<leader>e", vim.cmd.NvimTreeToggle)
