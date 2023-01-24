@@ -55,7 +55,7 @@ vim.diagnostic.config({
   virtual_text = true,
 })
 
-vim.api.nvim_create_autocmd({ "BufEnter", "BufWritePre" }, {
+vim.api.nvim_create_autocmd({ "BufWritePre" }, {
   pattern = { "*.rs", "*.c", "*.lua" },
   callback = function() vim.lsp.buf.formatting_sync() end,
 })
