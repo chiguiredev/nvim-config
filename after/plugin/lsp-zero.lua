@@ -56,6 +56,6 @@ vim.diagnostic.config({
 })
 
 vim.api.nvim_create_autocmd({ "BufWritePre" }, {
-  pattern = { "*.rs", "*.c", "*.lua" },
+  pattern = { "*.rs", "*.c", "*.lua", "*.py" },
   callback = function() vim.lsp.buf.formatting_sync() end,
 })
