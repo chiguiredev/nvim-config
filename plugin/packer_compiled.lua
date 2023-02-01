@@ -84,6 +84,12 @@ _G.packer_plugins = {
     path = "/Users/rafaelsalas/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["NeoZoom.lua"] = {
+    config = { "\27LJ\2\n1\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\18NeoZoomToggle\bcmd\bvimÄ\1\1\0\6\0\r\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\0016\0\6\0009\0\a\0009\0\b\0'\2\t\0'\3\n\0003\4\v\0005\5\f\0B\0\5\1K\0\1\0\1\0\2\vnowait\2\vsilent\2\0\14<leader>z\6n\bset\vkeymap\bvim\22exclude_filetypes\1\0\0\1\6\0\0\flspinfo\nmason\tlazy\bfzf\aqf\nsetup\rneo-zoom\frequire\0" },
+    loaded = true,
+    path = "/Users/rafaelsalas/.local/share/nvim/site/pack/packer/start/NeoZoom.lua",
+    url = "https://github.com/chiguiredev/NeoZoom.lua"
+  },
   catppuccin = {
     loaded = true,
     path = "/Users/rafaelsalas/.local/share/nvim/site/pack/packer/start/catppuccin",
@@ -155,11 +161,6 @@ _G.packer_plugins = {
     path = "/Users/rafaelsalas/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
-  ["nvim-remote-containers"] = {
-    loaded = true,
-    path = "/Users/rafaelsalas/.local/share/nvim/site/pack/packer/start/nvim-remote-containers",
-    url = "https://github.com/jamestthompson3/nvim-remote-containers"
-  },
   ["nvim-surround"] = {
     config = { "\27LJ\2\n;\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\18nvim-surround\frequire\0" },
     loaded = true,
@@ -203,6 +204,10 @@ time([[Defining packer_plugins]], false)
 time([[Config for nvim-surround]], true)
 try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\18nvim-surround\frequire\0", "config", "nvim-surround")
 time([[Config for nvim-surround]], false)
+-- Config for: NeoZoom.lua
+time([[Config for NeoZoom.lua]], true)
+try_loadstring("\27LJ\2\n1\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\18NeoZoomToggle\bcmd\bvimÄ\1\1\0\6\0\r\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\0016\0\6\0009\0\a\0009\0\b\0'\2\t\0'\3\n\0003\4\v\0005\5\f\0B\0\5\1K\0\1\0\1\0\2\vnowait\2\vsilent\2\0\14<leader>z\6n\bset\vkeymap\bvim\22exclude_filetypes\1\0\0\1\6\0\0\flspinfo\nmason\tlazy\bfzf\aqf\nsetup\rneo-zoom\frequire\0", "config", "NeoZoom.lua")
+time([[Config for NeoZoom.lua]], false)
 -- Config for: nvim-autopairs
 time([[Config for nvim-autopairs]], true)
 try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
