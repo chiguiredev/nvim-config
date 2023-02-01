@@ -73,7 +73,7 @@ return require('packer').startup(function(use)
 
   use {
     "windwp/nvim-autopairs",
-    config = function() require("nvim-autopairs").setup {} end
+    config = function() require("nvim-autopairs").setup() end
   }
 
   use {
@@ -94,5 +94,7 @@ return require('packer').startup(function(use)
       require('gitsigns').setup()
     end
   }
+
+  use 'tpope/vim-fugitive'
 
 end)
