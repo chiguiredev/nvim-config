@@ -97,4 +97,9 @@ return require('packer').startup(function(use)
 
   use 'tpope/vim-fugitive'
 
+  use {
+    "luukvbaal/stabilize.nvim",
+    config = function() require("stabilize").setup() end
+  }
+
 end)
